@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MVCAPPModelStoreContainer" CdmEntityContainer="MVCAPPEntities">
+    <EntitySetMapping Name="EventTBs">
+      <EntityTypeMapping TypeName="MVCAPPModel.EventTB">
+        <MappingFragment StoreEntitySet="EventTB">
+          <ScalarProperty Name="EventID" ColumnName="EventID" />
+          <ScalarProperty Name="EventName" ColumnName="EventName" />
+          <ScalarProperty Name="EventStartsDate" ColumnName="EventStartsDate" />
+          <ScalarProperty Name="EventEndsDate" ColumnName="EventEndsDate" />
+          <ScalarProperty Name="EventLocation" ColumnName="EventLocation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
